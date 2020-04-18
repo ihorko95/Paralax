@@ -1,6 +1,7 @@
 window.onload = function() {
 
   window.addEventListener('scroll', function(e) {
+    
     let s = this.scrollY;
     let w = this.outerWidth;
     let h = document.getElementsByClassName('paralax')[0].clientWidth;
